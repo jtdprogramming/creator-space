@@ -1,5 +1,4 @@
-# myface
-
+# creatorspace
 ## Acceptance Criteria for Challenge 2 - Personal Portfolio
 ```
 GIVEN I need to sample a potential employee's previous work
@@ -16,4 +15,3 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
-
