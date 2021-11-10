@@ -1,26 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>MyFace - James D.</title>
-</head>
-<body>
-  <!-- Header -->
   <head>
-    <h1>MyFace</h1>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Portfolio - James D.</title>
   </head>
-  <nav>
-    <ul>
-      <li><a href="#about-me">About Me</a></li>
-      <li><a href="#my-projects">My Projects</a></li>
-      <li><a href="#contact-me">Contact Me</a></li>
-    </ul>
-  </nav>
-  <!-- navigation panel -->
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>James D.</h1>
+    
+      <!-- navigation panel -->
+      <nav>
+        <ul>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#my-work">My Work</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--hero start **upgrade to floating project cards**-->
+    <section class="hero">
+      <div class="hero-content">
+        <p> Take a look at the projects I've worked on as I explore
+            the wide world of web development. 
+        </p>
+      </div>
+    </section>
+    
+    <!--"about me" section-->
+    <section id="about-me" class="about">
+      <div class="flex-row">
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="flex-row">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, fuga accusamus? Laborum vel perferendis fugiat adipisci, cumque cum laudantium hic perspiciatis nam sed est? Saepe tenetur quidem obcaecati modi perferendis.
+        </p>
+      </div>
+    </section>
+    
+
+    <!-- "my work" section -->
+    <section id="my-work" class="projects">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          My Work
+        </h2>
+        <p>My journey into web development thus far</p>
+      </div>
+
+      <!-- Run Buddy -->
+      <div class="run-buddy">
+        <h3>Run Buddy</h3>
+        <img src="./assets/images/run-buddy-screencap.PNG" alt="Run Buddy Website"/>
+      </div>
+
+      <!-- Horiseon -->
+      <div class="horiseion">
+        <h3>Horiseon: Refactored</h3>
+        <img src="./assets/images/horiseon-screencap.png" alt="Horiseon Website"/>
+      </div>
   
-  <!-- -->
-</body>
-</html>
+    </section>
+
+    <!-- "contact me" section -->
+    <section id="contact-me" class="contact">
+      <div class="flex-row">
+        <h2 class="section-title primary-border">
+          Contact Me
+        </h2>
+      </div>
+
+      <div class="contact-info">
+        <div>
+          <h3>James D.</h3>
+          <address>
+            # Streetname <br/>
+            Charlotte NC <br/>
+            Phone: ###-###-#### <br/>
+            E-mail: <a href="mailto:jtdprogramming@geemail.com">jtdprogramming@geemail.com</a> <br/>
+          </address>
+        </div>
+      </div>
+
+    </section>
+
+  </body>
+  </html>
