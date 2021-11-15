@@ -1,7 +1,7 @@
 :root {
   --primary-color: #722626;
   --secondary-color: #63a067;
-  --tertiary-color: #e7e7e7;
+  --tertiary-color: #7e7e7e;
 }
 
 /*  */
@@ -27,11 +27,11 @@ header {
   position: sticky;
   top: 0; 
   z-index: 9999;
-}
+ }
 
 header h1 {
   font-weight: bolder;
-  margin: 10px;
+  margin: 2%;
   font-size: 50px;
   color: var(--primary-color);
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -42,7 +42,7 @@ header h1 {
 }
 
 header nav {
-  margin: auto;
+  margin: 2%;
   color:#ffffff;  
   display: flex;
 }
@@ -52,7 +52,7 @@ header nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items:center;
   list-style: none;
 }
 
