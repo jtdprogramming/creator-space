@@ -27,7 +27,8 @@ header {
   position: sticky;
   top: 0; 
   z-index: 9999;
- }
+  opacity: 90%;
+}
 
 header h1 {
   font-weight: bolder;
