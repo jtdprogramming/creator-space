@@ -1,6 +1,6 @@
 :root {
   --primary-color: #722626;
-  --secondary-color: #63a067;
+  --secondary-color: #000000;
   --tertiary-color: #7e7e7e;
 }
 
@@ -72,6 +72,20 @@ header nav ul li a:hover {
   text-shadow: none;
 }
 /* End Header styling */
+
+/* Hero Styling Begin */
+.hero {
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.hero  
+
+
+
 
 /* all flex-row classes display flex */
 .flex-row {
