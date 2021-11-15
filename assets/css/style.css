@@ -24,7 +24,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  position: sticky;
+  position: static;
   top: 0; 
   z-index: 9999;
   opacity: 90%;
@@ -78,24 +78,56 @@ header nav ul li a:hover {
   background-color: var(--tertiary-color);
   display: flex;
   width: 100%;
-  margin: 0 auto;
-  display: flex;
+  margin: auto;
   flex-wrap: wrap;
-  justify-content:space-evenly;
+  justify-content: center;
+  
 }
 
 .hero p {
   font-size: 50px;
-
+  width: 600px;
+  margin: auto;
+  text-align: center;
+  text-shadow: 1px 2px 2px rgb(0, 0, 0);
 }
 
 .hero img {
-  width: 50%;
+  width: 40%;
   border-radius: 50%;
-  justify-content: right;
+  margin: auto;
   border: 1px solid #ddd;
   padding: 5px;
 }
+
+.hero span {
+  color:darkred;
+  text-shadow: 1px 2px 2px rgb(104, 3, 3);
+}
+/* End Hero Style */
+
+/* start About Me section style */
+.about {
+  background-color: rgb(20, 14, 14);
+  color: var(--primary-color);
+  margin: auto;
+  text-align: center;  
+}
+
+.about p {
+  color: var(--tertiary-color);
+  font-weight: bolder;
+  flex: content;
+  font-size: 5vh;
+}
+
+.about img {
+  width: 25%;
+  margin: 40px auto 10px auto;
+}
+/* end About Me style */
+
+
 
 
 
@@ -103,6 +135,19 @@ header nav ul li a:hover {
 /* all flex-row classes display flex */
 .flex-row {
   display: flex;
+}
+
+
+/* all section-title classes set */
+.section-title {
+  width: 60%;
+  font-size: 50px;
+  border-bottom: 8px solid;
+  color: darkred;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  text-align: center;
+  margin: 30px auto 30px auto;
 }
 
 /* applies padding to all section elements */
