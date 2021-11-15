@@ -128,13 +128,33 @@ header nav ul li a:hover {
 /* end About Me style */
 
 
+/* start My Work style */
+.projects {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  margin: auto;
+  text-align: center;  
+}
+
+.projects p {
+  color: var(--tertiary-color);
+  font-weight: bolder;
+  flex: content;
+  font-size: 5vh;
+}
 
 
 
+.project-title {
+  font-size: 5vh;
+  margin: 15px auto 15px auto;
+}
 
 /* all flex-row classes display flex */
 .flex-row {
   display: flex;
+  color: 
+  margin-top: 20px;
 }
 
 
