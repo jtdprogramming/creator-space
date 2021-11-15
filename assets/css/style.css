@@ -77,12 +77,25 @@ header nav ul li a:hover {
 .hero {
   background-color: var(--tertiary-color);
   display: flex;
-  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  justify-content:space-evenly;
 }
 
-.hero  
+.hero p {
+  font-size: 50px;
+
+}
+
+.hero img {
+  width: 50%;
+  border-radius: 50%;
+  justify-content: right;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
 
 
 
@@ -95,4 +108,11 @@ header nav ul li a:hover {
 /* applies padding to all section elements */
 section {
   padding: 60px;
+}
+
+/* MEDIA QUERY FOR SCREEN SIZES */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
 }
