@@ -1,4 +1,6 @@
 # creatorspace
+
+This project is to build a portfolio that will evolve as our web development skills expand. 
 ## Acceptance Criteria for Challenge 2 - Personal Portfolio
 ```
 GIVEN I need to sample a potential employee's previous work
