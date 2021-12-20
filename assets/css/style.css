@@ -9,6 +9,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 body {
@@ -31,6 +32,14 @@ header {
 }
 
 header h1 {
+  font-weight: bolder;
+  margin: 2%;
+  font-size: 50px;
+  color: var(--primary-color);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+} 
+
+.text-shadow {
   font-weight: bolder;
   margin: 2%;
   font-size: 50px;
@@ -85,15 +94,16 @@ header nav ul li a:hover {
 }
 
 .hero p {
-  font-size: 50px;
+  font-size: 35px;
   width: 600px;
-  margin: auto;
+  margin: 60px 200p;
   text-align: center;
   text-shadow: 1px 2px 2px rgb(0, 0, 0);
+  max-width: 50%;
 }
 
 .hero img {
-  width: 40%;
+  width: 18%;
   border-radius: 50%;
   margin: auto;
   border: 1px solid #ddd;
@@ -135,12 +145,21 @@ header nav ul li a:hover {
   margin: auto;
   text-align: center;  
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .projects img {
   opacity: 50%;
   height: auto;
+  max-width: 50%;
+
 }
+
+.projects img:hover {
+  opacity: 950%;
+}
+
 
 .projects p {
   color: white;
@@ -164,12 +183,32 @@ header nav ul li a:hover {
   
 }
 
+.horiseion img {
+  width: 100%;
+}
+
+
+.work-container img {
+  border: 4mm ridge rgba(27, 26, 27, 0.6);
+  border-radius: 50%;
+}
+
+.text-new {
+  color: red;
+  border: solid;
+}
+
+.newest-project {
+  border-color: red;
+}
 /* end My Work style */
 
 /* start Contact style */
 .contact {
   text-align: center;
   font-size: 5vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* end Contact style */
@@ -200,6 +239,25 @@ header nav ul li a:hover {
 /* applies padding to all section elements */
 section {
   padding: 60px;
+}
+
+.frame {
+  width: 315px;
+  height: 165px;
+  margin: 20px;
+  position: relative;
+}
+
+.fade {
+  height: 100%;
+  width: 100%;
+  position:absolute;
+  background: -webkit-linear-gradient(left, 
+              rgba(0,0,0,0.65) 0%, 
+              rgba(0,0,0,0) 20%,
+              rgba(0,0,0,0) 80%,
+              rgba(0,0,0,0.65) 100%
+  );
 }
 
 /* MEDIA QUERY FOR SCREEN SIZES */
@@ -237,5 +295,13 @@ section {
   }
   .section-title {
     width: 95%;
+  }
+
+  .image-text {
+    font-size: 25%;
+  }
+
+  .about img {
+    max-width: 200%;
   }
 }
